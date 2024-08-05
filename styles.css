@@ -28,10 +28,12 @@ body {
     padding: 20px;
     text-align: center;
     width: 100%;
+    max-height: 30%; /* Adjust based on preference */
     position: absolute;
     bottom: 0;
     left: 0;
     box-sizing: border-box;
+    overflow-y: auto; /* Add scroll if content overflows */
 }
 
 button {
@@ -52,6 +54,7 @@ button {
         width: 80%;
         margin: 0 auto;
         padding: 20px;
+        max-height: 40%; /* Adjust based on preference */
     }
 
     button {
@@ -70,6 +73,7 @@ button {
         width: 60%;
         margin: 0 auto;
         padding: 30px;
+        max-height: 50%; /* Adjust based on preference */
     }
 
     button {

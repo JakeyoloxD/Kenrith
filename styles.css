@@ -10,12 +10,12 @@ body {
 }
 
 .card {
-    background-image: url('image.jpg');
-    background-size: cover; /* Ensure the image covers the entire element */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    width: 100vw; /* Use viewport width */
-    height: 100vh; /* Use viewport height */
+    background-image: url('image.jpg'); /* Replace with your image */
+    background-size: cover; /* Ensures the background covers the element */
+    background-position: center top; /* Adjust to ensure Kenrith and name are visible */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

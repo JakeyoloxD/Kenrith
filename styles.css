@@ -38,6 +38,8 @@ body {
     transform: translateX(-50%); /* Center horizontally */
     box-sizing: border-box;
     overflow-y: auto; /* Add scroll if content overflows */
+    font-family: 'Beleren SmallCaps Bold', sans-serif;
+    border-radius: 15px; /* Add this line to curve the edges */
 }
 
 button {
@@ -45,6 +47,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     margin: 10px;
+    font-family: 'Beleren SmallCaps Bold', sans-serif;
 }
 
 #result {

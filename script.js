@@ -20,7 +20,7 @@ const groupThugEffects = [
 const deathTriggerEffects = [
     "Each opponent draws a card.",
     "You discard two cards.",
-    "You lose 5 life.",
+    "You lose 5 life.",  
     "Sacrifice a creature.",
     "Each opponent creates a 2/2 black Zombie creature token.",
     "Exile the top five cards of your library."
